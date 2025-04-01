@@ -180,4 +180,8 @@ pyrightconfig.json
 demo_data/
 
 
+# notebooks
+notebooks/*.mp4
+notebooks/data_exploration_windspeed_100m.ipynb
+notebooks/notebooks.ipynb
 # End of https://www.toptal.com/developers/gitignore/api/python

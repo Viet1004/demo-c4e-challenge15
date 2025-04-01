@@ -51,3 +51,34 @@ If you have a markdown file and you'd like to quickly add YAML metadata to it, s
 ```
 jupyter-book myst init path/to/markdownfile.md
 ```
+
+
+### Max-Stable Process for Spatiotemporal Data
+
+Max-stable processes are a fundamental tool in extreme value theory, particularly for modeling spatial and spatiotemporal extremes. These processes extend the concept of univariate extreme value distributions to higher dimensions, enabling the analysis of extreme events over space and time.
+
+In the context of spatiotemporal data, max-stable processes are used to model the joint behavior of extreme values across multiple locations and time points. They provide a framework to capture dependencies between extremes, which is crucial for understanding phenomena such as heatwaves, heavy rainfall, or other rare events that exhibit spatial and temporal correlations.
+
+#### Mathematical Representation
+
+A max-stable process \( Z(s) \) for \( s \in \mathcal{S} \), where \( \mathcal{S} \) is a spatial domain, can be defined as:
+
+\[
+Z(s) = \max_{i=1, \dots, n} \left\{ \xi_i \cdot W_i(s) \right\},
+\]
+
+where:
+- \( \xi_i \) are independent and identically distributed random variables following a standard Fréchet distribution,
+- \( W_i(s) \) are non-negative stochastic processes satisfying certain conditions to ensure max-stability.
+
+The finite-dimensional distributions of a max-stable process can be expressed as:
+
+\[
+P(Z(s_1) \leq z_1, \dots, Z(s_k) \leq z_k) = \exp \left( -V(z_1, \dots, z_k) \right),
+\]
+
+where \( V(z_1, \dots, z_k) \) is the so-called exponent measure, which captures the dependence structure of the process.
+
+#### Applications
+
+By leveraging max-stable processes, we can analyze the frequency, intensity, and spatial extent of extreme events, offering valuable insights for risk assessment and decision-making in fields such as climate science, hydrology, and energy systems.

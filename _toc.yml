@@ -5,6 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: markdown
-- file: notebooks/notebooks
-- file: notebooks/data_exploration
+- file: notebooks/data_exploration_solar_temperature
 - file: markdown-notebooks
