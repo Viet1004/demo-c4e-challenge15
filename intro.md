@@ -1,11 +1,12 @@
-# Welcome to your Jupyter Book
+# Welcome to the demo Jupyter Book for challenge 15 - Code4Earth 2025
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This is a small sample book to give a demo structure of how the project might be.
 
-Check out the content pages bundled with this sample book to see more.
+In the markdown file, we present the proposal for the project
+
+In the jupyter notebook file, we demonstrate an example of how to querying data with a specific set of parameters. The demonstration follows by data exploration and visualization.
+
+In the final step, we try to implement some methods in the framwork of extreme value theory (incomplete).
 
 ```{tableofcontents}
 ```
